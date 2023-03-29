@@ -1,10 +1,26 @@
+import { BrowserRouter, NavLink, Routes, Route } from 'react-router-dom';
+
+// imporrting components
+import Navbar from './components/Navbar';
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>My React App</h1>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Navbar/>
+
+
+
+        <Routes>
+          
+        </Routes>
+
+
+
+      </div>
+
+    </BrowserRouter>
   );
 }
 
