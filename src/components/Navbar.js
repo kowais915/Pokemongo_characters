@@ -10,6 +10,7 @@ const Navbar = () => {
 
             <ul className="nav-links">
 
+                <NavLink to = "/">Home</NavLink> 
                 <NavLink  to="/about">About</NavLink>   
                 <NavLink>API</NavLink>  
                 <NavLink>Code</NavLink>  
