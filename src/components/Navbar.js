@@ -10,7 +10,7 @@ const Navbar = () => {
 
             <ul className="nav-links">
 
-                <NavLink>About</NavLink>   
+                <NavLink  to="/about">About</NavLink>   
                 <NavLink>API</NavLink>  
                 <NavLink>Code</NavLink>  
             
