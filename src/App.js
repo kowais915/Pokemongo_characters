@@ -12,13 +12,14 @@ function App() {
   // using useEffect
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('https://pokeapi.co/api/v2/pokemon/')
       .then((resp )=>{
         return resp.json();
       })
       .then((data) => {
-       
-        setData(data);
+        
+        console.log(data);
+        setData(data.results);
       })
   }, []);
 
@@ -32,7 +33,7 @@ function App() {
 
         <div className="grid">
             {data.map((item) =>{
-              return <Card key = {item.id} title={item.title} body ={item.body} />
+              return <Card key = {item.url} name={item.name} url ={item.url} />
             })}
         </div>
 

@@ -1,11 +1,11 @@
 import './../styles/Card.css';
 
-const Card = ({title, body}) => {
+const Card = ({name, url}) => {
     return ( 
         
             <div className="card">
-                <h3>{title}</h3>
-                <p>{body}</p>
+                <h3>{name}</h3>
+                <p>{url}</p>
             </div>
         
      );
