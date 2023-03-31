@@ -5,6 +5,7 @@ import {useEffect, useState} from 'react';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Card from './components/Card';
+import Home from './components/Home';
 
 function App() {
   const [data, setData] = useState([]);
@@ -31,19 +32,19 @@ function App() {
         <Navbar/>
 
 
-        <div className="grid">
-            {data.map((item) =>{
-              return <Card key = {item.url} name={item.name} url ={item.url} />
-            })}
-        </div>
+     
 
 
 
         <Routes>
 
           <Route path='about' element={<About/>}/>
+
+          <Route path = '/' element={<Home data = {data}/>}/>
           
         </Routes>
+
+
 
 
 
