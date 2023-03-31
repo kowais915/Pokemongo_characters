@@ -6,3 +6,9 @@
     box-sizing: border-box;
     font-family: 'Edu NSW ACT Foundation', sans-serif;
 }
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
