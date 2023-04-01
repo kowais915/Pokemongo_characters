@@ -2,6 +2,9 @@
 import Card from './Card';
 
 const Home = ({data}) => {
+
+
+    
     return (  
         
        <>

@@ -20,25 +20,16 @@ function App() {
       })
       .then((data) => {
         
-        console.log(data);
+        
         setData(data.results);
       })
   }, []);
 
 
-  console.log(data);
   return (
     <BrowserRouter>
       <div className="App">
         <Navbar/>
-
-
-     
-
-
-
-
-
 
 
           <Routes>
