@@ -36,13 +36,26 @@ function App() {
 
 
 
-        <Routes>
 
-          <Route path='about' element={<About/>}/>
 
-          <Route path = '/' element={<Home data = {data}/>}/>
+
+
+          <Routes>
+
+                < Route exact path="/"  element={<Home data={data}/>}/>
+
+                <Route path="/about" element={<About/>}/>
+                
+                
+            </Routes>
+            
+
+            
+
+
+      
           
-        </Routes>
+       
 
 
 
