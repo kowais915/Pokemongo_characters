@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Card from './components/Card';
 import Home from './components/Home';
+import Pokemon from './components/Pokemon';
 
 function App() {
   const [data, setData] = useState([]);
@@ -42,12 +43,14 @@ function App() {
 
           <Routes>
 
-                < Route exact path="/"  element={<Home data={data}/>}/>
+                <Route exact path="/"  element={<Home data={data}/>}/>
 
                 <Route path="/about" element={<About/>}/>
+
+                <Route path="/pokemon/:name" element={<Pokemon/>}/>
                 
                 
-            </Routes>
+          </Routes>
             
 
             
