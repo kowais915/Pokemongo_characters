@@ -24,6 +24,9 @@ h2{
 
 .details{
     display: flex;
+    justify-content: center;
+    margin: 60px ;
+
 
 }
 
@@ -56,4 +59,16 @@ h2{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 40px;
+    
+}
+
+.abilities,.types{
+    
+    margin: 50px;
+}
+
+.abilities > h2, .types > h2{
+    text-align: center;
+    border-bottom: 1px black solid;
+    margin-bottom: 3px;
 }
