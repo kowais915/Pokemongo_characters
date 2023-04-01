@@ -1,4 +1,4 @@
-import { BrowserRouter, NavLink, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, NavLink, Routes, Route, Switch  } from 'react-router-dom';
 import {useEffect, useState} from 'react';
 
 // imporrting components
@@ -27,6 +27,8 @@ function App() {
 
   console.log(data);
   return (
+
+
     <BrowserRouter>
       <div className="App">
         <Navbar/>
@@ -34,7 +36,7 @@ function App() {
 
      
 
-
+        
 
         <Routes>
 
