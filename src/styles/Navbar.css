@@ -43,6 +43,21 @@ a:hover{
         margin: 20px 20px;
     
     }
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        
+        background-color: red;
+        width: 100%;
+        padding-right: 50px;
+       
+        
+        
+    
+    
+    }
   }
 
   /* samsung s series */
