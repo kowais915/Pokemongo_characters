@@ -11,8 +11,7 @@ const Navbar = () => {
             <ul className="nav-links">
 
                 <NavLink to = "/">Home</NavLink> 
-                <NavLink  to="/about">About</NavLink>   
-                <NavLink>API</NavLink>  
+                <NavLink  to="/about">About</NavLink>    
                 <NavLink to ="https://github.com/kowais915/Pokemongo_characters">Code</NavLink>  
             
             </ul>
