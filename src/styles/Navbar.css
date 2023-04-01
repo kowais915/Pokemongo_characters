@@ -44,3 +44,30 @@ a:hover{
     
     }
   }
+
+  /* samsung s series */
+  /* responsiveness */
+@media only screen and (min-width: 360px)  and (min-height: 740px){
+    /* Your CSS styles for devices with a width of 414 pixels and a height of 736 pixels go here */
+    .logo-img{
+        height: 45px;
+        width: 100px;
+        margin: 20px 20px;
+    
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        
+        background-color: red;
+        width: 100%;
+        padding-right: 50px;
+       
+        
+        
+    
+    
+    }
+  }
