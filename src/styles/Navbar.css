@@ -33,3 +33,14 @@ a:hover{
     color: #f1f1f1;
     
 }
+
+/* responsiveness */
+@media only screen and (min-width: 414px) and (max-width: 414px) and (min-height: 736px) and (max-height: 736px) {
+    /* Your CSS styles for devices with a width of 414 pixels and a height of 736 pixels go here */
+    .logo-img{
+        height: 45px;
+        width: 100px;
+        margin: 20px 20px;
+    
+    }
+  }
