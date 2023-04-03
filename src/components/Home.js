@@ -1,7 +1,11 @@
 // importing components here
 import Card from './Card';
 
+import {useDark } from '../hooks/useDark';
+
 const Home = ({data}) => {
+
+    const { color, changeColor} = useDark();
 
 
     

@@ -1,5 +1,6 @@
 import { BrowserRouter, NavLink, Routes, Route } from 'react-router-dom';
 import {useEffect, useState} from 'react';
+import { useDark } from './hooks/useDark';
 
 // imporrting components
 import Navbar from './components/Navbar';
@@ -8,8 +9,11 @@ import Card from './components/Card';
 import Home from './components/Home';
 import Pokemon from './components/Pokemon';
 
+
+
 function App() {
   const [data, setData] = useState([]);
+  const { color, background, changeColor, changeBg} = useDark();
 
   // using useEffect
 
@@ -28,7 +32,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App" style={{background: background}}>
         <Navbar/>
 
 
